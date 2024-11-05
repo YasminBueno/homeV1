@@ -8,6 +8,10 @@
     padding: 0px;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     background-image: linear-gradient(to right,#007A31, #01742F, #101211);
     padding: 20px;
@@ -36,9 +40,56 @@ header > menu{
 header > menu >  a{
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     padding-right: 10px;
     
+}
+
+section#s1{    
+    height: 600px;
+    background-image: url(imgs/backgroudHome.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    align-items: left;
+
+    color: white;
+}
+section#s1 h1{
+    font-size: 3em;
+}
+section#s1 p{
+    font-size: 1.3em;
+    padding: 20px;
+    text-align: justify;
+    max-width: 400px;
+}
+section#s1 strong{
+    color: #007A31;
+}
+section#s1 a{
+    width: 270px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #007A31;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+section#s2{
+    background-color: rgb(217, 217, 217);
+}
+section#s2 div#passos{
+    background-color: white;
+}
+ol {
+    list-style-type: decimal; /* Assegura que os números apareçam */
 }
 
 @media screen and (max-width: 840px) {

@@ -92,8 +92,17 @@ section#s2{
 }
 
 article#arti01{
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
   padding:  60px;
 }
+article#arti01 section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 article#arti01 p#p01{
     padding-bottom: 50px;
     max-width: 300px;
@@ -104,6 +113,7 @@ article#arti01 div#passos{
     border: 1px solid #007A31;
     border-radius: 10px;
     padding: 20px;
+    width: 250px;
 }
 article#arti01 div#passos p#p02{
     width: 220px;
@@ -112,6 +122,29 @@ article#arti01 div#passos p#p02{
 article#arti01 div#passos p#p02 span{
     color: #01742F;
 }
+article#arti01 a#ajuda{
+    color: white;
+    background-color: #007A31;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article#arti01 a#ajuda svg{
+    margin-right: 5px;
+}
+article#arti01 > div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
 article#arti01 ol{
     list-style-position: inside;
     padding: 10px;

@@ -43,6 +43,9 @@ header > menu >  a{
     padding-right: 10px;
     
 }
+header > menu >  a:hover{
+    font-weight: bolder;
+}
 
 section#s1{    
     height: 600px;
@@ -79,17 +82,40 @@ section#s1 a{
     margin-top: 10px;
     border-radius: 50px;
 }
+section#s1 a:hover{
+    font-weight: bold;
+    background-color: #01742F;
+}
 
 section#s2{
     background-color: rgb(217, 217, 217);
 }
-section#s2 div#passos{
-    background-color: white;
-}
-ol {
-    list-style-type: decimal; /* Assegura que os números apareçam */
-}
 
+article#arti01{
+  padding:  60px;
+}
+article#arti01 p#p01{
+    padding-bottom: 50px;
+    max-width: 300px;
+}
+article#arti01 div#passos{
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #007A31;
+    border-radius: 10px;
+    padding: 20px;
+}
+article#arti01 div#passos p#p02{
+    width: 220px;
+    padding: 20px;
+}
+article#arti01 div#passos p#p02 span{
+    color: #01742F;
+}
+article#arti01 ol{
+    list-style-position: inside;
+    padding: 10px;
+}
 
 /* Typical Device Breakpoints 
 Pequenas telas: até 600px 

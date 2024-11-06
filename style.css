@@ -60,11 +60,7 @@ section#s1{
 
     color: white;
 }
-section#s1 h1{
-    font-size: 5em;
-}
 section#s1 p{
-    font-size: 2em;
     padding: 40px;
     padding-left: 0px;
     text-align: justify;
@@ -103,30 +99,42 @@ Desktop: até 1200px
 Grandes telas: Acima de 1200px 
 */
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 600px) {
     section#s1 h1{
-        font-size: 2em;
+        font-size: 2.5em;
+    }
+    section#s1 p{
+        font-size: 1.2em;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 600px) and (max-width: 992px) {
     section#s1 h1{
-        font-size: 3em;
-        color: red;
+        font-size: 3em;     
+    }
+    section#s1 p{
+        font-size: 1.5em;
     }
 }
 
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     section#s1 h1{
-        font-size: 4em;
-        color: yellow;
+        font-size: 4em;  
+    }
+    section#s1 p{
+        font-size: 1.6em;
     }
 }
 
 
 @media screen and (min-width: 1200px){
-
+    section#s1 h1{
+        font-size: 5em;
+    }
+    section#s1 p{
+        font-size: 1.7em;
+    }
 }
 
 
@@ -134,16 +142,6 @@ Grandes telas: Acima de 1200px
 @media screen and (max-width: 840px) {
     header div#tituloHeader{
         text-align: center;
-    }
-}
-
-
-@media screen and (max-width: 1000px) {
-    section#s1 h1{
-        font-size: 4em;
-    }
-    section#s1 p{
-        font-size: 2em;
     }
 }
 

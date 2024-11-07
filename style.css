@@ -127,7 +127,6 @@ article#arti01 a#ajuda{
     color: white;
     background-color: #007A31;
     border-radius: 10px;
-    font-weight: bold;
     text-decoration: none;
     margin: 20px;
     padding: 10px;
@@ -138,6 +137,9 @@ article#arti01 a#ajuda{
 }
 article#arti01 a#ajuda svg{
     margin-right: 5px;
+}
+article#arti01 a#ajuda:hover{
+    font-weight: bold;
 }
 article#arti01 > div#divp{
     width: 100%;

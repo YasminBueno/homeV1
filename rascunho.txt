@@ -19,3 +19,20 @@
             <hr>
 
         </section>
+
+
+
+
+
+
+
+
+
+
+
+article#arti01 ol{
+    list-style-position: inside;
+    padding: 10px;
+}
+
+

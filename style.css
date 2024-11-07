@@ -103,7 +103,6 @@ article#arti01 section{
     flex-direction: column;
     align-items: center;
 }
-
 article#arti01 p#p01{
     padding-bottom: 50px;
     max-width: 300px;
@@ -184,8 +183,10 @@ Grandes telas: Acima de 1200px
     section#s1 p{
         font-size: 1.5em;
     }
+    p#p01, p#p03{
+        font-size: 1.1em;
+    }
 }
-
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     section#s1 h1{
@@ -194,8 +195,10 @@ Grandes telas: Acima de 1200px
     section#s1 p{
         font-size: 1.6em;
     }
+    p#p01, p#p03{
+        font-size: 1.2em;
+    }
 }
-
 
 @media screen and (min-width: 1200px){
     section#s1 h1{
@@ -203,6 +206,9 @@ Grandes telas: Acima de 1200px
     }
     section#s1 p{
         font-size: 1.7em;
+    }
+    p#p01, p#p03{
+        font-size: 1.3em;
     }
 }
 

@@ -147,21 +147,15 @@ article#arti01 > div#divp{
 }
 
 
-div#img01{
-    background: grey;
-    background-image: url(imgs/img3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
+img{
+    width: 400px;
 }
 
 section#caixaArti01{
     width: 100%;
-
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -191,6 +185,9 @@ Grandes telas: Acima de 1200px
     section#s1 p{
         font-size: 1.2em;
     }
+    div#img01{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
@@ -202,6 +199,28 @@ Grandes telas: Acima de 1200px
     }
     p{
         font-size: 1.1em;
+    }
+    article#arti01 p#p01{
+        max-width: 100%;
+        
+    }
+    article#arti01 div#passos p#p02{
+        width: 500px;
+        text-align: center;
+    }
+    ol{
+        font-size: 1.1em;
+    }
+    div#img01{
+        display: none;   
+    }
+    article#arti01 div#passos{
+      width: 500px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 }
 
@@ -215,6 +234,9 @@ Grandes telas: Acima de 1200px
     p{
         font-size: 1.2em;
     }
+    ol{
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -225,6 +247,9 @@ Grandes telas: Acima de 1200px
         font-size: 1.7em;
     }
     p{
+        font-size: 1.3em;
+    }
+    ol{
         font-size: 1.3em;
     }
 }

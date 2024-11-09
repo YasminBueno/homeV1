@@ -189,7 +189,7 @@ div#img03{
     height: 25px;
     background-image: url(imgs/estrela25px.png);
     background-repeat: repeat-x;
-    transform:translate(-15px, -13px);
+    transform:translate(-13px, -13px);
 }
 div#divArti03{
     padding-top: 30px;
@@ -199,6 +199,8 @@ div#divArti03{
 footer{
     background-color: rgb(35, 35, 35);
     color: white;
+    width: 100%;
+    padding: 40px;
 }
 
 

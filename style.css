@@ -92,7 +92,7 @@ section#s2{
     background-color: rgb(217, 217, 217);
 }
 
-article#arti01{
+article#arti01, article#arti02{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -106,6 +106,7 @@ article#arti01 section#scaixaArti01{
 article#arti01 p#p01{
     padding-bottom: 50px;
     max-width: 300px;
+
 }
 article#arti01 div#passos{
     background-color: white;
@@ -159,6 +160,12 @@ section#caixaArti01{
 
 }
 
+article#arti02 p{
+    padding: 20px;
+}
+article#arti02 ul{
+    list-style-image: url(imgs/estrela.png);
+}
 
 
 
@@ -185,7 +192,7 @@ Grandes telas: Acima de 1200px
     section#s1 p{
         font-size: 1.2em;
     }
-    div#img01{
+    div#img01, div#img02{
         display: none;
     }
 }
@@ -202,6 +209,8 @@ Grandes telas: Acima de 1200px
     }
     article#arti01 p#p01{
         max-width: 100%;
+        text-align: center;
+        padding: 20px;
         
     }
     article#arti01 div#passos p#p02{

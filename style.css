@@ -202,13 +202,12 @@ footer{
     width: 100%;
     padding: 40px;
 
-    display: flex;
-    flex-direction: column;
+    border-radius: 60px 60px 0px 0px;
 }
 
 footer div{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 

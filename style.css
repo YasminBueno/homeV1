@@ -48,7 +48,7 @@ header > menu >  a:hover{
 }
 
 section#s1{    
-    height: 600px;
+    height: 450px;
     background-image: url(imgs/backgroudHome.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -205,14 +205,25 @@ footer{
     border-radius: 60px 60px 0px 0px;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
+footer div#conteudo{
+    display: flex;
+    padding-bottom: 50px;
+}
 footer div{
+    min-width: 160px;
     padding-left: 20px;
 }
 
 footer div p{
     padding-top: 10px;
+}
+
+footer div p img{
+    width: 15px;
+    margin-right: 10px;
 }
 
 

@@ -203,15 +203,17 @@ footer{
     padding: 40px;
 
     border-radius: 60px 60px 0px 0px;
+
+    display: flex;
 }
 
 footer div{
-    display: flex;
-    flex-direction: row;
+    padding-left: 20px;
 }
 
-
-
+footer div p{
+    padding-top: 10px;
+}
 
 
 

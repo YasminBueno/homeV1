@@ -14,3 +14,7 @@
     --cor1: #007A31;
     --cor2: #01742F;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

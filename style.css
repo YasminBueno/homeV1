@@ -146,12 +146,9 @@ article#arti01 > div#divp{
     text-align: center;
     padding: 20px;
 }
-
-
 img{
     width: 400px;
 }
-
 section#caixaArti01{
     width: 100%;
     display: flex;

@@ -381,7 +381,8 @@ article#artiHistoria a#reserve:hover{
 
 
     section#sectionBemVindo h1{
-        font-size: 5em;
+        font-size: 4.5em;
+        max-width: 70%;
     }
     section#sectionBemVindo p{
         font-size: 1.7em;
@@ -392,7 +393,9 @@ article#artiHistoria a#reserve:hover{
     }
 
 
-
+    section#sectionConteudo h2{
+        font-size: 1.8em;
+    }
     section#sectionConteudo p{
         font-size: 1.3em;
     }
@@ -433,39 +436,4 @@ article#artiHistoria a#reserve:hover{
         text-align: center;
     }
 
-
-
-    article#artiAvaliacao div#caixa03{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    article#artiAvaliacao p{
-        text-align: center;
-    }
-    article#artiAvaliacao div#img02{
-        display: block;
-    }
-    article#artiAvaliacao div#img02 img{
-        width: 300px;
-    }
-
-
-
-
-    article#artiContato div#divTitulo h2{
-        font-size: 2.5em;
-    }
-    article#artiContato footer p{
-        font-size: 1em;
-    }
-    footer{
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    footer iframe{
-        width: 30%;
-    }
 }

@@ -216,9 +216,9 @@ article#artiContato div#img03{
 
 
 
-
-
-
+article#artiContato footer p{
+    font-size: 1em;
+}
 footer{
     background-color: rgb(35, 35, 35);
     color: white;

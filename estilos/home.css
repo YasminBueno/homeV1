@@ -263,11 +263,46 @@ footer iframe{
 /* Grandes telas: Acima de 1200px */
 
 @media screen and (min-width: 1200px){
-  footer{
-    justify-content: space-around;
-    flex-direction: row;
-  }
-  footer iframe{
-    width: 30%;
-  }
+  
+    header div#tituloHeader{
+        width: 300px;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    header menu{
+        max-width: 700px;
+        font-size: 1.3em;
+    }
+
+
+
+    section#sectionConteudo p{
+        font-size: 1.3em;
+    }
+    section#sectionConteudo a{
+        font-size: 1.3em;
+        
+    }  
+
+
+
+    section#sectionBemVindo h1{
+        font-size: 5em;
+    }
+    section#sectionBemVindo p{
+        font-size: 1.7em;
+    }
+    section#sectionBemVindo a{
+        font-size: 1.1em;
+        width: 300px;
+    }
+
+
+    footer{
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    footer iframe{
+        width: 30%;
+    }
 }

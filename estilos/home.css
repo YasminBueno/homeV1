@@ -260,11 +260,6 @@ footer iframe{
 
 @media screen and (min-width: 700px) and (max-width: 956px){
 
-    header{
-        background-image: none;
-        background-color: red;
-    }
-
     header div#tituloHeader{
         width: 300px;
         font-size: 1.3em;
@@ -285,7 +280,7 @@ footer iframe{
     }
     section#sectionBemVindo a{
         font-size: 0.9em;
-        width: 260px;
+        width: 230px;
     }
 
 
@@ -309,7 +304,7 @@ footer iframe{
         justify-content: space-evenly;
     }
     article#artiContratacao div#passosContratacao{
-        width: 300px;
+        width: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -321,11 +316,8 @@ footer iframe{
         width: 180px;
     }  
     article#artiContratacao div#img01{
-        display: block;
+        display: none;
     }    
-    article#artiContratacao div#img01 img{
-        width: 400px;
-    }
     article#artiContratacao div#caixa02 p#p03{
         text-align: center;
     }

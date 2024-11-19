@@ -420,15 +420,13 @@ article#artiHistoria a#reserve:hover{
         flex-direction: column;
         align-items: center;
     }
-    article#artiContratacao div#passosContratacao p#p02{
-        text-align: center;
-    }  
+
     article#artiContratacao div#bloco01 a#ajuda{
         width: 200px;
     }  
-    article#artiContratacao div#img01{
+    article#artiHistoria div#img01, article#artiHistoria div#img02{
         display: block;
-    }    
+    }   
     article#artiContratacao div#img01 img{
         width: 500px;
     }

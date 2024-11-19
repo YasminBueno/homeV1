@@ -3,10 +3,6 @@
  
 /* Celular: até 768px */
 
-img{
-    display: none;
-}
-
 header{
     background-image: linear-gradient(to right, var(--cor1), var(--cor2), #101211);
     padding: 20px;
@@ -407,8 +403,10 @@ article#artiHistoria a#reserve:hover{
     }
 
 
-
-    article#artiContratacao div#caixa01{
+img{
+    width: 500px;
+}
+    article#artiHistoria div#caixa01, article#artiHistoria div#caixa02{
         display: flex;
         width: 100%;
         padding: 40px;

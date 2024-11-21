@@ -16,7 +16,7 @@ header{
 header > div#tituloHeader{
     font-family: var(--fontTitulo);
     color: white;
-    font-size: 1.4em; 
+    font-size: 1.2em; 
     text-align: center;
 }
 header > menu{
@@ -58,8 +58,8 @@ section#sectionBemVindo{
     color: white;
 }
 section#sectionBemVindo h1{
-    font-size: 2.6em;
-    max-width: 500px;
+    font-size: 3em;
+    max-width: 400px;
     padding-bottom: 30px;
 }
 section#sectionBemVindo a{
@@ -88,13 +88,13 @@ section#sectionConteudo h2{
     font-size: 1.5em;
 }
 section#sectionConteudo p{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 section#sectionConteudo li{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 section#sectionConteudo a{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 
@@ -141,26 +141,22 @@ article#artiHistoria a#reserve:hover{
 
 @media screen and (min-width: 700px) and (max-width: 956px){
 
-    body{
-        display: none;
-    }
+
     header div#tituloHeader{
         width: 300px;
         font-size: 1.3em;
         text-align: center;
     }
     header menu{
-        max-width: 600px;
+        max-width: 600px;   
         font-size: 1.1em;
     }
 
 
 
     section#sectionBemVindo h1{
-        font-size: 3em;
-    }
-    section#sectionBemVindo p{
-        font-size: 1.4em;
+        font-size: 3.5em;
+        max-width: 500px;
     }
     section#sectionBemVindo a{
         font-size: 0.9em;
@@ -168,7 +164,9 @@ article#artiHistoria a#reserve:hover{
     }
 
 
-
+    section#sectionConteudo h2{
+        font-size: 1.6em;
+    }
     section#sectionConteudo p{
         font-size: 1.1em;
     }
@@ -181,68 +179,23 @@ article#artiHistoria a#reserve:hover{
 
 
 
-    article#artiContratacao div#caixa01{
+    article#artiHistoria div#caixa02{
         display: flex;
+        flex-direction: column-reverse;
         width: 100%;
-        padding: 40px;
-        justify-content: space-evenly;
-    }
-    article#artiContratacao div#passosContratacao{
-        width: 400px;
-        display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
-    article#artiContratacao div#passosContratacao p#p02{
-        text-align: center;
-    }  
-    article#artiContratacao div#bloco01 a#ajuda{
-        width: 180px;
-    }  
-    article#artiContratacao div#img01{
+    article#artiHistoria div#img01{
         display: none;
-    }    
-    article#artiContratacao div#caixa02 p#p03{
-        text-align: center;
-    }
-
-
-
-    article#artiAvaliacao div#caixa03{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-bottom: 40px;
-    }
-    article#artiAvaliacao p{
-        text-align: center;
-        padding: 0px;
-    }
-    article#artiAvaliacao div#img02{
+    } 
+    article#artiHistoria div#img02{
         display: block;
-    }
-    article#artiAvaliacao div#img02 img{
-        width: 300px;
-    }
-
-
-
-
-    article#artiContato div#divTitulo h2{
-        font-size: 2.3em;
-    }
-    article#artiContato footer p{
-        font-size: 1em;
-    }
-    footer{
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    footer iframe{
-        width: 30%;
-    }
+        padding: 40px;
+    } 
+    img{
+        width: 400px;
+    }  
 }
 
 
@@ -251,14 +204,15 @@ article#artiHistoria a#reserve:hover{
 
 /* Desktop: até 1200px */
 @media screen and (min-width: 956px) and (max-width:1200px){
-  
+
+
     header div#tituloHeader{
         width: 300px;
         font-size: 1.4em;
-        text-align: left;
+        text-align: center;
     }
     header menu{
-        max-width: 600px;
+        max-width: 600px;   
         font-size: 1.2em;
     }
 
@@ -266,9 +220,7 @@ article#artiHistoria a#reserve:hover{
 
     section#sectionBemVindo h1{
         font-size: 4em;
-    }
-    section#sectionBemVindo p{
-        font-size: 1.5em;
+        max-width: 600px;
     }
     section#sectionBemVindo a{
         font-size: 1em;
@@ -276,7 +228,9 @@ article#artiHistoria a#reserve:hover{
     }
 
 
-
+    section#sectionConteudo h2{
+        font-size: 1.7em;
+    }
     section#sectionConteudo p{
         font-size: 1.2em;
     }
@@ -289,71 +243,18 @@ article#artiHistoria a#reserve:hover{
 
 
 
-    article#artiContratacao div#caixa01{
+    article#artiHistoria div#caixa01, article#artiHistoria div#caixa02{
         display: flex;
         width: 100%;
         padding: 40px;
         justify-content: space-evenly;
     }
-    article#artiContratacao div#passosContratacao{
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    article#artiContratacao div#passosContratacao p#p02{
-        text-align: center;
-    }  
-    article#artiContratacao div#bloco01 a#ajuda{
-        width: 180px;
-    }  
-    article#artiContratacao div#img01{
+    article#artiHistoria div#img01, article#artiHistoria div#img02{
         display: block;
-    }    
-    article#artiContratacao div#img01 img{
+    } 
+    img{
         width: 400px;
-    }
-    article#artiContratacao div#caixa02 p#p03{
-        text-align: center;
-    }
-
-
-
-    article#artiAvaliacao div#caixa03{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-bottom: 40px;
-    }
-    article#artiAvaliacao p{
-        text-align: center;
-        padding: 0px;
-    }
-    article#artiAvaliacao div#img02{
-        display: block;
-    }
-    article#artiAvaliacao div#img02 img{
-        width: 300px;
-    }
-
-
-
-
-    article#artiContato div#divTitulo h2{
-        font-size: 2.3em;
-    }
-    article#artiContato footer p{
-        font-size: 1em;
-    }
-    footer{
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    footer iframe{
-        width: 30%;
-    }
+    }  
 }
 
 
@@ -370,7 +271,7 @@ article#artiHistoria a#reserve:hover{
         text-align: left;
     }
     header menu{
-        max-width: 700px;
+        width: 700px;
         font-size: 1.3em;
     }
 
@@ -378,10 +279,7 @@ article#artiHistoria a#reserve:hover{
 
     section#sectionBemVindo h1{
         font-size: 4.5em;
-        max-width: 70%;
-    }
-    section#sectionBemVindo p{
-        font-size: 1.7em;
+        max-width: 700px;
     }
     section#sectionBemVindo a{
         font-size: 1.1em;
@@ -403,33 +301,16 @@ article#artiHistoria a#reserve:hover{
     }
 
 
-img{
-    width: 500px;
-}
     article#artiHistoria div#caixa01, article#artiHistoria div#caixa02{
         display: flex;
         width: 100%;
         padding: 40px;
         justify-content: space-evenly;
     }
-    article#artiContratacao div#passosContratacao{
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    article#artiContratacao div#bloco01 a#ajuda{
-        width: 200px;
-    }  
     article#artiHistoria div#img01, article#artiHistoria div#img02{
         display: block;
     }   
-    article#artiContratacao div#img01 img{
+    img{
         width: 500px;
     }
-    article#artiContratacao div#caixa02 p#p03{
-        text-align: center;
-    }
-
 }

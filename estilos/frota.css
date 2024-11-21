@@ -16,7 +16,7 @@ header{
 header > div#tituloHeader{
     font-family: var(--fontTitulo);
     color: white;
-    font-size: 1.4em; 
+    font-size: 1.2em; 
     text-align: center;
 }
 header > menu{
@@ -58,7 +58,19 @@ section#sectionBemVindo{
     color: white;
 }
 section#sectionBemVindo h1{
-    font-size: 2.6em;
+    font-size: 3em;
+    max-width: 450px;
+    padding-bottom: 30px;
+}
+section#sectionBemVindo p{
+    padding: 30px;
+    padding-left: 0px;
+    text-align: justify;
+    max-width: 600px;
+    font-size: 1.3em;
+}
+section#sectionBemVindo strong{
+    color: var(--cor1);
 }
 section#sectionBemVindo a{
     width: 270px;
@@ -96,40 +108,94 @@ section#sectionConteudo a{
 
 
 
-section#sectionConteudo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-}
 article#artiContratacao{
-    padding:  60px;
-    max-width: 900px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding:  60px;
 }
-article#artiContratacao p{
+article#artiContratacao p#p01{
     max-width: 100%;
     text-align: justify;
-    text-indent: 1em;
+    padding: 20px;
 }
-article#artiContratacao img{
-    margin: 50px;
+article#artiContratacao div#img01{
+    display: none;
+}
+article#artiContratacao div#bloco01{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+}
+article#artiContratacao div#passosContratacao{
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #007A31;
+    border-radius: 10px;
+    padding: 35px;
+    width: 250px;
+}
+article#artiContratacao div#passosContratacao p#p02{
+    width: 220px;
+    padding-top: 20px;
+}
+article#artiContratacao div#passosContratacao p#p02 span{
+    color: #01742F;
+}
+article#artiContratacao a#ajuda{
+    color: white;
+    background-color: #007A31;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article#artiContratacao a#ajuda img{
+    margin-right: 5px;
+}
+article#artiContratacao a#ajuda:hover{
+    font-weight: bold;
+}
+article#artiContratacao p#p03{
+    text-align: justify;
 }
 
 
-hr{
-    width: 100%;
+
+
+
+article#artiAvaliacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  60px;
 }
+article#artiAvaliacao div#img02{
+    display: none;
+}
+article#artiAvaliacao p{
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: justify;
+}
+article#artiAvaliacao ul{
+    list-style-image: url(../imgs/imgHome/estrela25px.png);
+}
+
+
+
+
 
 article#artiContato{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 article#artiContato div#divTitulo{
@@ -196,6 +262,10 @@ footer iframe{
 
 @media screen and (min-width: 700px) and (max-width: 956px){
 
+    header{
+        background-image: none;
+        background-color: red;
+    }
     header div#tituloHeader{
         width: 300px;
         font-size: 1.3em;

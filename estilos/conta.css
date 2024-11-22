@@ -44,14 +44,64 @@ main{
     height: 82vh;
     background-size: cover;
     background-position: left center;
-}
 
-section#caixa{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    justify-content: center;
+}
+
+
+
+section#caixa div#cadastro{
+    background-color: rgba(255, 255, 255, 0.637);
+    border: 2px solid var(--cor1);
+    color: var(--cor2);
+    border-radius: 20px;
     width: 300px;
+    padding: 30px;
+    font-size: 1em;   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#caixa div#cadastro p{
+    margin-top: 10px;
+}
+section#caixa div#cadastro input{
+    width: 100%;
+    padding-top: 5px;
+    font-size: 1em;
+}
+section#caixa div#cadastro input[type='submit']{
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--cor1);
+    border: none;
+}
+section#caixa div#cadastro input[type='submit']:hover{
+    background-color: var(--cor2);
+    width: 125px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+section#caixa div#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#caixa div#links p{
+    padding-top: 5px;
+}
+section#caixa div#links a{
+    color: white; 
+    font-size: 0.9em;
 }
 /* Tablet: até 992px */
 

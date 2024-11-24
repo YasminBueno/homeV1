@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+ 
+/* Celular: até 768px */
+
+header{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), #101211);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header > div#tituloHeader{
+    font-family: var(--fontTitulo);
+    color: white;
+    font-size: 1.2em; 
+    text-align: center;
+}
+header > menu{
+    width: 80vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+header > menu >  a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;    
+}
+header > menu >  a:hover{
+    font-weight: bolder;
+}
+
+
+/* Tablet: até 992px */
+
+@media screen and (min-width: 700px) and (max-width: 956px){
+
+
+    header div#tituloHeader{
+        width: 300px;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    header menu{
+        max-width: 600px;   
+        font-size: 1.1em;
+    }
+
+}
+
+
+
+
+
+/* Desktop: até 1200px */
+@media screen and (min-width: 956px) and (max-width:1200px){
+
+
+    header div#tituloHeader{
+        width: 300px;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    header menu{
+        max-width: 600px;   
+        font-size: 1.2em;
+    } 
+}
+
+
+
+
+
+/* Grandes telas: Acima de 1200px */
+
+@media screen and (min-width: 1200px){
+  
+    header div#tituloHeader{
+        width: 300px;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    header menu{
+        width: 700px;
+        font-size: 1.3em;
+    }
+}

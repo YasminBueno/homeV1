@@ -38,6 +38,50 @@ header > menu >  a:hover{
 }
 
 
+section#sectionConteudo{
+    background-color: rgb(217, 217, 217);
+}
+
+section#sectionConteudo p{
+    font-size: 1.1em;
+}
+section#sectionConteudo li{
+    font-size: 1.1em;
+}
+section#sectionConteudo a{
+    font-size: 1.1em;
+}
+
+article#arti01{
+    width: 100%;
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article#arti01 div#bloco01{
+    display: flex;
+    align-items: center;
+}
+article#arti01 div#tituloArti01{
+    padding: 20px;
+}
+article#arti01 div#maps{
+    padding: 10px;
+}
+article#arti01 div#maps p{
+    padding-bottom: 5px;
+}
+article#arti01 div#maps iframe{
+    border: 3px solid black;
+}   
+article#arti01 div#contatos div#p{
+    padding: 15px;
+}
+article#arti01  div#idEstrelas{
+    
+}
 /* Tablet: até 992px */
 
 @media screen and (min-width: 700px) and (max-width: 956px){

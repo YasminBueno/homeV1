@@ -54,7 +54,6 @@ section#sectionConteudo a{
 
 article#arti01{
     width: 100%;
-    border: 1px solid red;
 
     display: flex;
     flex-direction: column;
@@ -79,9 +78,30 @@ article#arti01 div#maps iframe{
 article#arti01 div#contatos div#p{
     padding: 15px;
 }
-article#arti01  div#idEstrelas{
-    
+article#arti01  div#idEstrelas img{
+    padding: 20px;
 }
+
+
+
+
+
+
+article#arti02{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 3px solid red;
+}
+article#arti02 div#divTituloArti02{
+    padding: 30px;
+}
+article#arti02 div#perguntas{
+    background-color: rgb(112, 108, 108);
+}
+
 /* Tablet: até 992px */
 
 @media screen and (min-width: 700px) and (max-width: 956px){
